@@ -8,7 +8,7 @@ data/
 ├── constraints/   		60 generated cannot-link (CL) files
 ├── labels/        		60 feasible PCCC reference label files
 ├── plots/         		plots generated for two-dimensional datasets
-├── pccc/          		the CL-instance generator
+├── generator/          		the CL-instance generator
 ├── example_LOG.txt		log file for a synthetic instance
 └── README.md			data formats, sources, and generation procedure
 ```
@@ -60,7 +60,7 @@ The real datasets are:
 
 ## 🛠️ Instance generation
 
-`pccc/create_feasible_instances.py` implements the generation procedure used
+`generator/create_feasible_instances.py` implements the generation procedure used
 for the released instances.
 It calls the [`PCCC algorithm`](https://github.com/phil85/PCCC-Algorithm),
 a heuristic algorithm for clustering with hard and soft must-link and cannot-link constraints.
@@ -80,13 +80,13 @@ It creates constraint densities for both `p=20` and `p=40` across three seeds.
 From the repository root, run, for example:
 
 ```bash
-python data/pccc/create_feasible_instances.py \
+python data/generator/create_feasible_instances.py \
        data/datasets/syn-1500-50.txt \
        data/constraints data/labels \
        --seed 1 --replica 1 --plots-dir data/plots --require-pccc
 ```
 
 Install the dependencies first with
-`python -m pip install -r data/pccc/requirements.txt`. The `--require-pccc`
+`python -m pip install -r data/generator/requirements.txt`. The `--require-pccc`
 option enforces the procedure used for the released instances: generation
 fails if PCCC does not return a feasible labeling.
