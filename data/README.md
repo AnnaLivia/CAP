@@ -13,6 +13,7 @@ data/
 └── README.md			data formats, sources, and generation procedure
 ```
 
+<br>
 ## 📄 Input formats
 
 Every file in `datasets/` begins with
@@ -35,6 +36,7 @@ The released instances contain cannot-link pairs. Each file in `labels/`
 contains one zero-based cluster label per observation and is a feasible
 reference clustering for the matching constraint set.
 
+<br>
 ## 🧪 Benchmark datasets
 
 The four synthetic datasets contain three equally sized Gaussian clusters in
