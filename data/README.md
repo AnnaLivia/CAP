@@ -14,6 +14,7 @@ data/
 ```
 
 <br>
+
 ## 📄 Input formats
 
 Every file in `datasets/` begins with
@@ -37,6 +38,7 @@ contains one zero-based cluster label per observation and is a feasible
 reference clustering for the matching constraint set.
 
 <br>
+
 ## 🧪 Benchmark datasets
 
 The four synthetic datasets contain three equally sized Gaussian clusters in
