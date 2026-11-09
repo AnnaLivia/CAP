@@ -1,7 +1,7 @@
 # CAP: Constrained Anticlustering Problem </br>
 
 <p align="center">
-  <img src="figures/logo.jpeg" width="180" alt="CAP logo" />
+  <img src="figures/logo.jpeg" width="200" alt="CAP logo" />
 </p>
 
 This repository contains the **source code, benchmark datasets, pairwise constraint sets, and reference label files** used in the paper:
@@ -128,7 +128,7 @@ pairs represented in each anticluster, and the resulting bound gap.
 
 👉 See the [`example`](data/example_LOG.txt) for details.
 
----
+<br>
 
 ## 📚 Related works
 
