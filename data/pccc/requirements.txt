@@ -1,0 +1,8 @@
+numpy
+scipy
+scikit-learn
+pandas
+networkx
+gurobipy
+# matplotlib is optional and is needed only for diagnostic plots.
+matplotlib
