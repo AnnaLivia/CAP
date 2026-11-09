@@ -62,7 +62,7 @@ The real datasets are:
 
 `pccc/create_feasible_instances.py` implements the generation procedure used
 for the released instances.
-It calls the [`PCCC algorithm`](https://github.com/phil85/PCCC-Algorithm)
+It calls the [`PCCC algorithm`](https://github.com/phil85/PCCC-Algorithm),
 a heuristic algorithm for clustering with hard and soft must-link and cannot-link constraints.
 It creates constraint densities for both `p=20` and `p=40` across three seeds.
 
