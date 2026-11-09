@@ -4,11 +4,11 @@ This directory contains the benchmark data and all files needed to reproduce the
 
 ```text
 data/
-├── datasets/     		10 benchmark datasets in CAP input format
+├── datasets/     		4 synthetic benchmark datasets in CAP input format
 ├── constraints/   		60 generated cannot-link (CL) files
 ├── labels/        		60 feasible PCCC reference label files
 ├── plots/         		plots generated for two-dimensional datasets
-├── pccc/          		the CL-instance generator and PCCC implementation
+├── pccc/          		the CL-instance generator
 ├── example_LOG.txt		log file for a synthetic instance
 └── README.md			data formats, sources, and generation procedure
 ```
@@ -61,8 +61,10 @@ The real datasets are:
 ## 🛠️ Instance generation
 
 `pccc/create_feasible_instances.py` implements the generation procedure used
-for the released instances. For each seed it creates both `p=20` and `p=40`
-constraint densities.
+for the released instances.
+It calls the [`PCCC algorithm`](https://github.com/phil85/PCCC-Algorithm)
+a heuristic algorithm for clustering with hard and soft must-link and cannot-link constraints.
+It creates constraint densities for both `p=20` and `p=40` across three seeds.
 
 1. It runs K-means with 1,000 starts to obtain an unconstrained partition.
 2. It exchanges points near the boundaries of close clusters, preserving each
@@ -75,7 +77,7 @@ constraint densities.
 5. It writes the CL file, reference labels, K-means statistics, and, for
    two-dimensional data, a diagnostic plot.
 
-From the repository root, run for example:
+From the repository root, run, for example:
 
 ```bash
 python data/pccc/create_feasible_instances.py \
