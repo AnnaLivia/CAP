@@ -56,6 +56,8 @@ The real datasets are:
 | Rice | `(3810,7,2)` | [UCI](https://archive.ics.uci.edu/dataset/545/rice) |
 | Wifi | `(2000,7,5)` | [UCI](https://archive.ics.uci.edu/dataset/422/wireless+indoor+localization) |
 
+<br>
+
 ## 🛠️ Instance generation
 
 `pccc/create_feasible_instances.py` implements the generation procedure used
