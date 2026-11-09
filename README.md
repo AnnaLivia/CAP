@@ -4,7 +4,7 @@
   <img src="figures/logo.jpeg" width="200" alt="CAP logo" />
 </p>
 
-This repository contains the **source code, benchmark datasets, pairwise constraint sets, and reference label files** used in the paper:
+This repository contains the **source code, synthetic benchmark datasets, pairwise constraint sets, and reference label files** used in the paper:
 
 > A. L. Croella, V. Piccialli, and A. M. Sudoso, *Decomposing Clustering Problems with Must-Link and Cannot-Link Constraints to Compute Strong Bounds*,
 > manuscript under review.
@@ -27,7 +27,7 @@ The repository provides everything required to reproduce the experiments reporte
 ├── anticlustering_c++/    CAP--VNS and lower-bound implementation
 ├── clustering_matlab/     MATLAB routines called by PC-SOS-SDP
 ├── data/
-│   ├── datasets/          synthetic and real benchmark datasets
+│   ├── datasets/          synthetic benchmark datasets
 │   ├── constraints/       generated cannot-link constraint sets
 │   ├── labels/            feasible reference clusterings
 │   ├── plots/             diagnostic plots for the generated instances
@@ -37,7 +37,7 @@ The repository provides everything required to reproduce the experiments reporte
 └── figures/               repository figures and logo
 ```
 
-The benchmark instances include both synthetic datasets and real-world datasets (see [`data/README.md`](data/README.md) for the benchmark description and
+The benchmark instances include synthetic datasets (see [`data/README.md`](data/README.md) for the benchmark description and
 input-file conventions).
 
 <br>
