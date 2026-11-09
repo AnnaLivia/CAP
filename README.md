@@ -80,17 +80,15 @@ the GPL-3.0 license of PC-SOS-SDP; see their local
    `SDP_SOLVER_FOLDER` to the SDPNAL+ root directory containing
    `clustering_matlab/`.
 6. To generate new feasible instances, install Python 3.10 or later and
-   the libraries used by PCCC. Further details are in [`data/README.md`](data/README.md).
+   the libraries used by [`PCCC`](https://github.com/phil85/PCCC-Algorithm).
+   Further details are in [`data/README.md`](data/README.md).
 
 <br>
 
 ## ⚙️ Configuration
 
-The parameters of CAP and PC-SOS-SDP are set in
-[`anticlustering_c++/config.txt`](anticlustering_c++/config.txt), including
-the VNS-independent lower-bound settings, thread counts, branch-and-bound
-limits, and SDP tolerances. The released configuration uses three VNS starts,
-root-node PC-SOS-SDP solves, and the settings reported in the paper.
+The CAP parameters are set in [`anticlustering_c++/config.txt`](anticlustering_c++/config.txt).
+The released configuration and settings are reported in the paper.
 
 <br>
 
