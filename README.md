@@ -31,7 +31,7 @@ The repository provides everything required to reproduce the experiments reporte
 │   ├── constraints/       generated cannot-link constraint sets
 │   ├── labels/            feasible reference clusterings
 │   ├── plots/             plots for the generated instances
-│   ├── pccc/              instance generator and PCCC implementation
+│   ├── generator/         instance generator
 │   ├── example_LOG.txt    log file for a synthetic instance
 │   └── README.md          data formats, sources, and generation procedure
 └── figures/               repository figures and logo
