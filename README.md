@@ -30,15 +30,15 @@ The repository provides everything required to reproduce the experiments reporte
 │   ├── datasets/          synthetic benchmark datasets
 │   ├── constraints/       generated cannot-link constraint sets
 │   ├── labels/            feasible reference clusterings
-│   ├── plots/             diagnostic plots for the generated instances
+│   ├── plots/             plots for the generated instances
 │   ├── pccc/              instance generator and PCCC implementation
 │   ├── example_LOG.txt    log file for a synthetic instance
 │   └── README.md          data formats, sources, and generation procedure
 └── figures/               repository figures and logo
 ```
 
-The benchmark instances include synthetic datasets (see [`data/README.md`](data/README.md) for the benchmark description and
-input-file conventions).
+The benchmark instances include labels and constraints for both synthetic and real datasets
+(see [`data/README.md`](data/README.md) for the benchmark description and input-file conventions).
 
 <br>
 
