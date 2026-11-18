@@ -6,7 +6,7 @@
 
 This repository contains the **source code, synthetic benchmark datasets, pairwise constraint sets, and reference label files** used in the paper:
 
-> A. L. Croella, V. Piccialli, and A. M. Sudoso, *Decomposing Clustering Problems with Must-Link and Cannot-Link Constraints to Compute Strong Bounds*,
+> A. L. Croella, V. Piccialli, and A. M. Sudoso, *Constraint-Aware Anticlustering Decomposition for Certifying Pairwise-Constrained Clustering*,
 > manuscript under review.
 
 ---
@@ -150,8 +150,7 @@ If you use CAP or the distributed benchmark instances, please cite:
 ```bibtex
 @misc{croella2026cap,
   author = {Anna Livia Croella and Veronica Piccialli and Antonio M. Sudoso},
-  title = {Decomposing Clustering Problems with Must-Link and Cannot-Link
-           Constraints to Compute Strong Bounds},
+  title = {Constraint-Aware Anticlustering Decomposition for Certifying Pairwise-Constrained Clustering},
   year = {2026},
   note = {Manuscript under review}
 }
