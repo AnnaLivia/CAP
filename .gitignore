@@ -1,9 +1,0 @@
-anticlustering_c++/*.o
-anticlustering_c++/cap
-results/
-*.log
-*.aux
-*.tmp
-__pycache__/
-*.py[cod]
-kmeans_cl_statistics.csv
