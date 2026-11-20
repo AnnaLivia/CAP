@@ -1,7 +1,7 @@
 # CAP: Constrained Anticlustering Problem </br>
 
 <p align="center">
-  <img src="figures/logo.jpeg" width="200" alt="CAP logo" />
+  <img src="logo.jpeg" width="200" alt="CAP logo" />
 </p>
 
 This repository contains the **source code, synthetic benchmark datasets, pairwise constraint sets, and reference label files** used in the paper:
@@ -34,7 +34,7 @@ The repository provides everything required to reproduce the experiments reporte
 │   ├── generator/         instance generator
 │   ├── example_LOG.txt    log file for a synthetic instance
 │   └── README.md          data formats, sources, and generation procedure
-└── figures/               repository figures and logo
+└── logo.jpeg              repository figures and logo
 ```
 
 The benchmark instances include labels and constraints for both synthetic and real datasets
