@@ -8,7 +8,7 @@ data/
 ├── constraints/   		60 generated cannot-link (CL) files
 ├── labels/        		60 feasible PCCC reference label files
 ├── plots/         		plots generated for two-dimensional datasets
-├── generator/          the CL-instance generator
+├── generator/                  the CL-instance generator
 ├── example_LOG.txt		log file for a synthetic instance
 └── README.md			data formats, sources, and generation procedure
 ```
