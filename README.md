@@ -7,7 +7,7 @@
 This repository contains the **source code, synthetic benchmark datasets, pairwise constraint sets, and reference label files** used in the paper:
 
 > A. L. Croella, V. Piccialli, and A. M. Sudoso, *Constraint-Aware Anticlustering Decomposition for Certifying Pairwise-Constrained Clustering*,
-> manuscript under review.
+> manuscript under review, [`pdf`](http://arxiv.org/abs/2611.27496).
 
 ---
 
@@ -152,6 +152,7 @@ If you use CAP or the distributed benchmark instances, please cite:
   author = {Anna Livia Croella and Veronica Piccialli and Antonio M. Sudoso},
   title = {Constraint-Aware Anticlustering Decomposition for Certifying Pairwise-Constrained Clustering},
   year = {2026},
+  url = {http://arxiv.org/abs/2611.27496},
   note = {Manuscript under review}
 }
 ```
